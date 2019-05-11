@@ -1,1 +1,10 @@
-# car_recommender
+# Car recommender
+Aplikacija napravljena u svrhu testiranja i učenja PHP programskog jezika, te povezivanja PHP jezika s bazom podataka
+
+Osposobljena mogućnost izrade korisničkog računa, te log - in na stranicu pomoću stvorenog računa
+
+Korištene tehnologije:
+  -HTML
+  -CSS
+  -PHP
+  -MySQL
