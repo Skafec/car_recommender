@@ -3,8 +3,8 @@ Aplikacija napravljena u svrhu testiranja i učenja PHP programskog jezika, te p
 
 Osposobljena mogućnost izrade korisničkog računa, te log - in na stranicu pomoću stvorenog računa
 
-Korištene tehnologije:
-  -HTML
-  -CSS
-  -PHP
-  -MySQL
+Korištene tehnologije: </br>
+  -HTML </br>
+  -CSS </br>
+  -PHP </br>
+  -MySQL </br>
