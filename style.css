@@ -1,0 +1,333 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* MOJ KOD */
+body {
+  background-color: #EFEFEF;
+}
+
+/* HEADER */
+.main-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFF;
+}
+
+header nav ul {
+  float: left;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  margin-top: 20px;
+}
+
+header nav ul li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #A9A9A9;
+}
+
+header nav ul li a:hover {
+  color: #FF3B3F;
+}
+
+header .login {
+  float: right;
+}
+
+header .login form {
+  padding-top: 15px;
+}
+
+header .login input {
+  margin-right: 10px;
+  height: 30px;
+  width: 150px;
+  border: none;
+  background-color: #EFEFEF;
+  padding-left: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+header .login a {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #A9A9A9;
+}
+
+header .login a:hover {
+  color: #FF3B3F;
+}
+
+header .login form button {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #EFEFEF;
+  transition-duration: 0.4s;
+}
+
+header .login form button:hover {
+  background-color: #FF3B3F;
+}
+
+/* CONTENT */
+
+.main-container {
+  padding-top: 40px;
+}
+
+.main-wrapper h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Signup form */
+
+.signup {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.signup input {
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.signup button {
+  display: block;
+  width: 30%;
+  height: 40px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #EFEFEF;
+  cursor: pointer;
+}
+
+.signup button:hover {
+  background-color: #FF3B3F;
+  transition-duration: 0.4s;
+}
+
+/*Dropdown menu*/
+.dropbtn {
+  width: 200px;
+  margin-top: 20px;
+  background-color: #FF3B3F;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+}
+
+.dropdown-content a {
+  text-align: center;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+    transition-duration: 0.4s;
+}
+
+/*Content*/
+
+.main-wrapper img {
+  width: 1000px;
+}
+
+.main-wrapper h1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.main-wrapper .database-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.main-wrapper h3 {
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.main-wrapper .database-text {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}

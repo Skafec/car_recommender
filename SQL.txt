@@ -1,0 +1,51 @@
+CREATE TABLE korisnici (
+	user_id INT(9) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    user_first VARCHAR(255) NOT NULL,
+    user_last VARCHAR(255) NOT NULL,
+    user_email VARCHAR(255) NOT NULL,
+    user_uid VARCHAR(255) NOT NULL,
+    user_pwd VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE auti (
+	auto_id INT(9) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    auto_vrsta VARCHAR(255) NOT NULL,
+    auto_ime VARCHAR(255) NOT NULL,
+    auto_img VARCHAR(255) NOT NULL,
+    auto_info VARCHAR(1500) NOT NULL
+);
+
+
+
+INSERT INTO auti (auto_vrsta, auto_ime, auto_img, auto_info)
+VALUES ('City', 'VW UP', 'http://localhost/projekti/auti/images/city/city1.png', 'The Up may be the smallest car on offer in the Volkswagen range, but it doesn’t miss out on all the hallmarks that the marque is renowned for. 
+        It may not be revolutionary in the segment, but the Up beats its closest rivals on finish, refinement, desirability and economy. 
+        Add in the facts you can get the punchy, 89bhp 1.0 TSI engine at the front and that a sporty Up GTI due to join the range imminently, it is the small car that can cater for everyone’s needs.');
+
+
+
+Bez slike
+---------------------------------------
+INSERT INTO auti (auto_vrsta, auto_ime, auto_info)
+VALUES ('City', 'VW UP', 'The Up may be the smallest car on offer in the Volkswagen range, but it doesn’t miss out on all the hallmarks that the marque is renowned for. 
+        It may not be revolutionary in the segment, but the Up beats its closest rivals on finish, refinement, desirability and economy. 
+        Add in the facts you can get the punchy, 89bhp 1.0 TSI engine at the front and that a sporty Up GTI due to join the range imminently, it is the small car that can cater for everyone’s needs.');
+
+
+
+INSERT INTO auti (auto_vrsta, auto_ime, auto_info)
+VALUES ('Luxury', 'Mercedes-Benz S Class', 'When Mercedes-Benz sets out to make a new S-Class, the brief is to make the best car in the world. While it might not seduce like a Jaguar XJ, that’s not what it’s for.
+This car does what it’s supposed to do superbly and is functionally exceptional. 
+It was conceived as a long-wheelbase saloon, giving it unprecedented torsional rigidity, and the ride is helped by standard air suspension with adaptive dampers.
+There’s a choice of three petrol and one diesel engine, with standard cars sing a 9G-Tonic Plus nine-speed automatic ‘box.
+The S-Class is engineered to happen quietly and comfortably, it could hardly ride better, and it steers directly and precisely.
+The interior is spacious and supremely comfortable, and festooned with technology, including a 12.3in screen and Mercedes’ Comand Online system as standard.');
+
+
+INSERT INTO auti (auto_vrsta, auto_ime, auto_info)
+VALUES ('Sport', 'Porsche 911 Carrera', 'We’ve been here before. The 911 is improved beyond question. It’s easier to live with than before and superior to drive, for the most part. 
+It’s all the good bits of the first generation 991 tweaked and enhanced. Then there’s the significant bit, which, as usual, will upset the purists.
+
+If you’d never driven a naturally aspirated 911, the arrival of a turbocharged Carrera wouldn’t be a big deal. Two things to note, though. 
+First, like moving to water cooling and electric steering, it’s inevitable and we’ll get used to it. Second, this is still a good engine and it’s in the best sports car.
+');
