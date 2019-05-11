@@ -9,4 +9,4 @@ Korištene tehnologije: </br>
   -HTML </br>
   -CSS </br>
   -PHP </br>
-  -MySQL </br>
+  -phpMyAdmin </br>
